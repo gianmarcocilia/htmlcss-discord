@@ -183,6 +183,11 @@ header {
 
  .content h3 {
     font-size: 2rem;
+    padding-top: 3rem;
+    background-image: url(../img/stars.svg);
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-position: top;
  }
 
  .download2 {
