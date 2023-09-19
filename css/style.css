@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 65%;
     margin: 0 auto;
     max-width: 1400px;
 }
@@ -40,8 +40,7 @@ ul {
 header {
     color: white;
     background-image: url(../img/jumbo.png);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+    background-size: 100%;
     padding-bottom: .5rem;
     font-size: 1rem;
 }
@@ -49,6 +48,7 @@ header {
 .header-nav {
     padding: 1rem 0;
     align-items: center;
+    background-color: rgb(37 94 233);;
 }
 
 .header-logo,
@@ -97,17 +97,22 @@ header {
     line-height: 2rem;
 }
 
-.link-content{
-    padding: 1rem;
-    font-size: 1.2rem;
-}
 
 .hero .center {
     gap: 2rem;
 }
 
+/* Buttons with link */
+
+.link-content,
+.download2 {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
 .download, 
-.discord-browser {
+.discord-browser,
+.download2 {
     padding: 1rem 2rem;
     border-radius: 2rem;
 }
@@ -131,38 +136,65 @@ header {
 /* Content Section */
 
 .content {
-    padding: 2rem 0;
+    margin-top: 6rem;
+    padding-top: 2rem;
 }
 
 .big-content {
-    width: 60%;
+    width: 65%;
     min-height: 300px;
-    background-color: rgb(30 144 255);;
-    border: 1px dashed black;
+    
+}
+
+.big-content img {
+    width: 100%;
 }
 
 .small-content {
-    width: 40%;
+    width: 35%;
+    text-align: left;
+    padding-top: 2rem;
     min-height: 300px;
-    background-color: pink;
-    border: 1px dashed black;
+    
+}
+
+.content h2 {
+    font-size: 3.3rem;
+}
+
+.content p {
+    padding-top: 2rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
 }
 
 /* Gray Section */
 
-.gray-section {
-    background-color: rgb(211 211 211);
+.gray-section, 
+.last-gray-section {
+    background-color: rgb(246 246 246);
 }
 
 /* Last section */
+ .last-gray-section {
+    text-align: center;
+    padding-bottom: 4rem;
+ }
 
-.green-content {
-    margin: 0 auto;
-    width: 75%;
-    background-color: green;
-    min-height: 500px;
-    border: 1px dashed black;
-}
+ .big-img {
+    width: 100%;
+ }
+
+ .content h3 {
+    font-size: 2rem;
+ }
+
+ .download2 {
+    margin: 3rem auto 5rem;
+    width: fit-content;
+    color: white;
+    background-color: rgb(114 137 218);;
+ }
 
 /* FOOTER */
 
