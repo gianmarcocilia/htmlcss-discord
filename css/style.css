@@ -1,0 +1,206 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* COMMON */
+body {
+    font-family: Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+ul {
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    justify-content: center;
+}
+/* HEADER */
+
+header {
+    color: white;
+    background-image: url(../img/jumbo.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-bottom: .5rem;
+    font-size: 1rem;
+}
+
+.header-nav {
+    padding: 1rem 0;
+    align-items: center;
+}
+
+.header-logo,
+.link,
+.login {
+    padding: 0.5rem;
+}
+
+/* Navbar */
+
+.link {
+    flex-grow: 1;
+    justify-content: center;
+    gap: 3rem;
+}
+
+/* Login */
+
+.login {
+    color: black;
+    background-color: white;
+    padding: .5rem 1rem;
+    border-radius: 2rem;
+}
+
+/* First section / Hero */
+
+.hero {
+    padding: 8rem 0;
+}
+
+.hero-content, 
+.link-content {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+.link-content{
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.hero .center {
+    gap: 2rem;
+}
+
+.download, 
+.discord-browser {
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+
+.download {
+    color: black;
+    background-color: white;
+}
+
+.discord-browser {
+    color: white;
+    background-color: black;
+}
+
+.arrow {
+    font-size: 2rem;
+    line-height: 0;
+}
+/* MAIN */
+
+/* Content Section */
+
+.content {
+    padding: 2rem 0;
+}
+
+.big-content {
+    width: 60%;
+    min-height: 300px;
+    background-color: rgb(30 144 255);;
+    border: 1px dashed black;
+}
+
+.small-content {
+    width: 40%;
+    min-height: 300px;
+    background-color: pink;
+    border: 1px dashed black;
+}
+
+/* Gray Section */
+
+.gray-section {
+    background-color: rgb(211 211 211);
+}
+
+/* Last section */
+
+.green-content {
+    margin: 0 auto;
+    width: 75%;
+    background-color: green;
+    min-height: 500px;
+    border: 1px dashed black;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(35 39 42);
+}
+
+.footer-top {
+    padding: 1rem 0 2rem;
+}
+
+.left-footer {
+    min-height: 200px;
+    background-color: rgb(240 128 128);
+    width: 40%;
+    border: 1px dashed black;
+}
+
+.right-footer {
+    min-height: 350px;
+    background-color: rgb(32 178 170);
+    width: calc(60% / 4);
+    border: 1px dashed white;
+}
+
+/* Footer2 with logo and buttons */
+
+.footer-bottom {
+    margin: 1.5rem auto 0;
+    width: 75%;
+    background-color: aquamarine;
+    padding: 1.5rem 0;
+    justify-content: space-between;
+}
+
+.logo-footer,
+.button {
+    padding: .5rem 1rem;
+    background-color: pink;
+    border: 1px dashed black;
+}
