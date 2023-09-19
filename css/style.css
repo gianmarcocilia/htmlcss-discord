@@ -189,7 +189,7 @@ header {
     margin: 3rem auto 5rem;
     width: fit-content;
     color: white;
-    background-color: rgb(114 137 218);;
+    background-color: rgb(114 137 218);
  }
 
 /* FOOTER */
@@ -199,7 +199,7 @@ footer {
 }
 
 .footer-top {
-    padding: 5rem 0;
+    padding: 5rem 0 0;
     text-align: left;
 }
 
@@ -237,19 +237,21 @@ footer {
     padding-bottom: 1.2rem;
 }
 
-/* Footer2 with logo and buttons */
-
-.footer-bottom {
-    margin: 1.5rem auto 0;
-    width: 75%;
-    background-color: aquamarine;
-    padding: 1.5rem 0;
-    justify-content: space-between;
+hr {
+    border: 1px solid rgb(114 137 218);
 }
 
-.logo-footer,
-.button {
-    padding: .5rem 1rem;
-    background-color: pink;
-    border: 1px dashed black;
+/* Footer2 with logo and buttons */
+
+.footer-bottom { 
+    padding: 1rem 0 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.registration {
+    color: white;
+    background-color: rgb(114 137 218);
+    border-radius: 2rem;
+    padding: .5rem;
 }
