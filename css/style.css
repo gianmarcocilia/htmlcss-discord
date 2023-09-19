@@ -198,6 +198,8 @@ footer {
     background-color: rgb(35 39 42);
 }
 
+/* Footer top  */
+
 .footer-top {
     padding: 5rem 0 0;
     text-align: left;
@@ -228,6 +230,17 @@ footer {
     width: 2rem;
 }
 
+/* Loghi social */
+.icon-set {
+    padding-top: 1rem;
+    color: white;
+    font-size: 20px;
+}
+
+.space {
+    padding: 0rem .5rem;
+}
+
 .right-footer h4 {
     color: rgb(114 137 218);
 }
@@ -241,7 +254,7 @@ hr {
     border: 1px solid rgb(114 137 218);
 }
 
-/* Footer2 with logo and buttons */
+/* Footer bottom  */
 
 .footer-bottom { 
     padding: 1rem 0 3rem;
